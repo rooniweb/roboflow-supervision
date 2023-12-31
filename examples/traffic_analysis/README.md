@@ -30,7 +30,7 @@ https://github.com/roboflow/supervision/assets/26109316/c9436828-9fbf-4c25-ae8c-
     pip install -r requirements.txt
     ```
 
-- download `traffic_analysis.pt` and `traffic_analysis.mov` files
+- download `traffic_analysis.pt` and `traffic_analysis.mp4` files
 
     ```bash
     ./setup.sh
@@ -57,10 +57,10 @@ particularly in distinguishing between different objects.
 ```bash
 python script.py \
 --source_weights_path data/traffic_analysis.pt \
---source_video_path data/traffic_analysis.mov \
+--source_video_path data/traffic_analysis.mp4 \
 --confidence_threshold 0.3 \
 --iou_threshold 0.5 \
---target_video_path data/traffic_analysis_result.mov
+--target_video_path data/traffic_analysis_result.mp4
 ```
 
 ## © license
