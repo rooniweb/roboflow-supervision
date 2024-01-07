@@ -11,7 +11,7 @@ else
 fi
 
 # Download the traffic_analysis.mp4 file from Google Drive
-gdown -O "$DIR/data/traffic_analysis.mp4" "https://drive.google.com/uc?id=1nNpoiYDvmOie7Ft9Xq_nzsL6xNkrLM3K"
+gdown -O "$DIR/data/traffic_analysis.mp4" "https://drive.google.com/uc?id=1Wm63b3mRm_axTPxRL6xAgSDauRSRAJx-"
 
 # Download the traffic_analysis.pt file from Google Drive
 gdown -O "$DIR/data/traffic_analysis.pt" "https://drive.google.com/uc?id=1y-IfToCjRXa3ZdC1JpnKRopC7mcQW-5z"
